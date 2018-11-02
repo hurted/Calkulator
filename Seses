@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "masukan angka pertama"
+read p
+echo "masukan angka kedua"
+read q
+tambah=$(echo '$p + $q' | bc)
+echo "hasil penambahan = $tambah"
